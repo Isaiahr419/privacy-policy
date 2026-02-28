@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Privacy Policy — Meta Ads Integration</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600&family=DM+Serif+Display&display=swap" rel="stylesheet">
+    <style>
+        *, *::before, *::after {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        :root {
+            --ink: #1a1a1a;
+            --paper: #faf9f7;
+            --muted: #6b6560;
+            --accent: #2c5282;
+            --border: #e8e4df;
+            --max-w: 640px;
+        }
+
+        body {
+            font-family: 'DM Sans', sans-serif;
+            background: var(--paper);
+            color: var(--ink);
+            line-height: 1.7;
+            font-size: 16px;
+            -webkit-font-smoothing: antialiased;
+        }
+
+        .container {
+            max-width: var(--max-w);
+            margin: 0 auto;
+            padding: 80px 24px 120px;
+        }
+
+        .badge {
+            display: inline-block;
+            font-size: 11px;
+            font-weight: 600;
+            letter-spacing: 0.08em;
+            text-transform: uppercase;
+            color: var(--accent);
+            border: 1.5px solid var(--accent);
+            border-radius: 20px;
+            padding: 4px 14px;
+            margin-bottom: 24px;
+        }
+
+        h1 {
+            font-family: 'DM Serif Display', serif;
+            font-size: clamp(2rem, 5vw, 2.75rem);
+            font-weight: 400;
+            line-height: 1.2;
+            margin-bottom: 16px;
+            color: var(--ink);
+        }
+
+        .effective-date {
+            font-size: 14px;
+            color: var(--muted);
+            margin-bottom: 48px;
+        }
+
+        h2 {
+            font-family: 'DM Serif Display', serif;
+            font-size: 1.35rem;
+            font-weight: 400;
+            margin-top: 48px;
+            margin-bottom: 16px;
+            color: var(--ink);
+        }
+
+        p {
+            margin-bottom: 16px;
+            color: #3d3833;
+        }
+
+        ul {
+            margin-bottom: 16px;
+            padding-left: 20px;
+        }
+
+        li {
+            margin-bottom: 8px;
+            color: #3d3833;
+        }
+
+        li::marker {
+            color: var(--accent);
+        }
+
+        .divider {
+            border: none;
+            border-top: 1px solid var(--border);
+            margin: 48px 0;
+        }
+
+        .contact-box {
+            background: #f0eeeb;
+            border-radius: 10px;
+            padding: 24px 28px;
+            margin-top: 12px;
+        }
+
+        .contact-box p {
+            margin-bottom: 4px;
+            font-size: 15px;
+        }
+
+        .contact-box a {
+            color: var(--accent);
+            text-decoration: none;
+            border-bottom: 1px solid transparent;
+            transition: border-color 0.2s;
+        }
+
+        .contact-box a:hover {
+            border-bottom-color: var(--accent);
+        }
+
+        footer {
+            margin-top: 64px;
+            padding-top: 24px;
+            border-top: 1px solid var(--border);
+            font-size: 13px;
+            color: var(--muted);
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="badge">Privacy Policy</div>
+        <h1>Meta Ads Integration</h1>
+        <p class="effective-date">Effective date: February 27, 2026</p>
+
+        <p>This privacy policy describes how this application ("the App") accesses and uses data from Meta's Marketing API. The App is a personal productivity tool built for internal use to analyze and manage advertising campaigns on Facebook and Instagram.</p>
+
+        <h2>Data We Access</h2>
+        <p>The App accesses the following data from your Meta ad account through the Marketing API:</p>
+        <ul>
+            <li>Ad campaign performance metrics (impressions, clicks, conversions, spend)</li>
+            <li>Campaign, ad set, and ad configuration details</li>
+            <li>Audience targeting parameters</li>
+            <li>Ad creative metadata</li>
+            <li>Account-level settings and billing information</li>
+        </ul>
+
+        <h2>How We Use Your Data</h2>
+        <p>Data accessed through the Meta Marketing API is used solely for the following purposes:</p>
+        <ul>
+            <li>Analyzing ad campaign performance</li>
+            <li>Generating reports and insights</li>
+            <li>Optimizing campaign targeting and budget allocation</li>
+            <li>Managing and automating campaign operations</li>
+        </ul>
+
+        <h2>Data Storage &amp; Security</h2>
+        <p>Access tokens and API credentials are stored securely as environment variables on the local machine or server. They are never hardcoded into source code, committed to version control, or shared with third parties.</p>
+        <p>Campaign data retrieved from Meta's API is processed in real-time and is not permanently stored in any external database or third-party service.</p>
+
+        <h2>Data Sharing</h2>
+        <p>We do not sell, rent, license, or share any data obtained through the Meta Marketing API with any third parties. Data is accessed exclusively for the internal purposes described above.</p>
+
+        <h2>Third-Party Services</h2>
+        <p>The App integrates with the following services:</p>
+        <ul>
+            <li><strong>Meta Marketing API</strong> — for accessing advertising data</li>
+            <li><strong>Anthropic Claude</strong> — for AI-powered analysis and recommendations (data is processed per Anthropic's usage policies)</li>
+        </ul>
+
+        <h2>Your Rights</h2>
+        <p>You may revoke the App's access to your Meta ad account at any time by removing the application from your Meta Business Settings or by revoking the access token. Upon revocation, the App will no longer be able to access any of your advertising data.</p>
+
+        <h2>Changes to This Policy</h2>
+        <p>This privacy policy may be updated from time to time. Any changes will be reflected on this page with an updated effective date.</p>
+
+        <hr class="divider">
+
+        <h2>Contact</h2>
+        <p>If you have questions about this privacy policy or the App's data practices, please reach out:</p>
+        <div class="contact-box">
+            <p><strong>Email:</strong> <a href="mailto:isaiah.rosario419@gmail.com">isaiah.rosario419@gmail.com</a></p>
+        </div>
+
+        <footer>
+            &copy; 2026 — Meta Ads Integration. All rights reserved.
+        </footer>
+    </div>
+</body>
+</html>
